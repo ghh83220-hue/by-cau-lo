@@ -1,0 +1,105 @@
+.hero-section {
+    background: url("1001.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+.card-img-custom {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.text-star {
+    color: rgb(12, 176, 126);
+}
+ul.list-unstyled a {
+    color: inherit;
+    text-decoration: none;
+}
+/* Danh gia khach hang */
+.reviews {
+    padding: 60px 20px;
+    background: #f6f7f8;
+    text-align: center;
+}
+
+.reviews h2 {
+    font-size: 32px;
+    color: #173b68;
+    margin-bottom: 10px;
+}
+
+.review-subtitle {
+    color: #777;
+    font-size: 17px;
+    margin-bottom: 40px;
+}
+
+.review-card {
+    max-width: 720px;
+    margin: 0 auto 50px;
+    padding: 40px 30px;
+    background: white;
+    border-radius: 32px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.review-card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 12px;
+}
+
+.review-card h3 {
+    font-size: 27px;
+    color: #292d32;
+    margin: 8px 0 30px;
+}
+
+.stars {
+    color: #ffbd36;
+    font-size: 38px;
+    letter-spacing: 4px;
+    margin-bottom: 22px;
+}
+
+.review-text {
+    font-size: 23px;
+    line-height: 1.8;
+    font-style: italic;
+    color: #62666a;
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    .reviews {
+        padding: 35px 15px;
+    }
+
+    .review-card {
+        padding: 30px 20px;
+        border-radius: 25px;
+        margin-bottom: 30px;
+    }
+
+    .review-card img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .review-card h3 {
+        font-size: 21px;
+    }
+
+    .review-text {
+        font-size: 17px;
+    }
+
+    .stars {
+        font-size: 30px;
+    }
+}
